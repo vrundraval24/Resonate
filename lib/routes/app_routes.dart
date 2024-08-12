@@ -16,6 +16,8 @@ class AppRoutes {
   static const pairing = "/pairing";
   static const pairChat = "/pairChat";
   static const settings = "/settings";
+  static const aboutApp = "/aboutApp";
+  static const contributeScreen = "/contributeScreen";
   static const editProfile = "/editProfile";
   static const deleteAccount = "/deleteAccount";
   static const changeEmail = "/changeEmail";
