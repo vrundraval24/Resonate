@@ -3,8 +3,6 @@ import 'package:resonate/bindings/auth_splash_bindings.dart';
 import 'package:resonate/bindings/profile_binding.dart';
 import 'package:resonate/new_themes/theme_screen.dart';
 import 'package:resonate/routes/app_routes.dart';
-import 'package:resonate/views/new_screens/about_app_screen.dart';
-import 'package:resonate/views/new_screens/contribute_screen.dart';
 import 'package:resonate/views/new_screens/new_edit_profile_screen.dart';
 import 'package:resonate/views/new_screens/new_email_verification_screen.dart';
 import 'package:resonate/views/new_screens/new_forgot_password_screen.dart';
@@ -137,14 +135,6 @@ class AppPages {
     GetPage(
       name: AppRoutes.settings,
       page: () => NewSettingsScreen(),
-    ),
-    GetPage(
-      name: AppRoutes.aboutApp,
-      page: () => const AboutAppScreen(),
-    ),
-    GetPage(
-      name: AppRoutes.contributeScreen,
-      page: () => const ContributeScreen(),
     ),
     // GetPage(
     //   name: AppRoutes.settings,

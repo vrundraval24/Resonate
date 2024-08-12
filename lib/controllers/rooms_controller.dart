@@ -104,8 +104,7 @@ class RoomsController extends GetxController {
                 size: Get.pixelRatio * 20),
           ),
           barrierDismissible: false,
-          name: "Loading Dialog",
-      );
+          name: "Loading Dialog");
 
       // Get the token and livekit url and join livekit room
       AuthStateController authStateController = Get.find<AuthStateController>();
